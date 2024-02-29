@@ -1,0 +1,58 @@
+
+
+.grid {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 60px;
+    gap: 24px;
+  }
+  
+.grid-item {
+    width: 100%;
+    height: 100%;
+    background-color: lightgreen;
+    border: 1px solid black;
+    font-size: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.container{
+    height: 800px;
+    width: 100%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+.box{
+    height: 100px;
+    padding: 20px;
+
+}
+
+.box p{
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+
+.box-1{
+    background-color: red;
+}
+
+.box-2{
+    background-color: black;
+}
+
+.box-3{
+    background-color: blueviolet;
+}
+

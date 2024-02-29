@@ -1,0 +1,254 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+p,a,h1,h2,h3,h4{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+p, a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: red;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 48px;
+    color: gray;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    margin: 16px;
+    /* border: 1px solid none;
+    border-radius: 16px; */
+}
+
+.left-side,
+.right-side {
+    width: 50%;
+    padding: 8px 16px;
+}
+
+.img1 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 16px;
+    margin-bottom: 24px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.left-side table {
+    width: 100%;
+    background-color: aliceblue;
+    padding: 20px 24px 8px 24px;
+    border-radius: 16px;
+
+    margin-bottom: 48px;
+}
+
+.left-side table img {
+    width: 24px;
+    height: 24px;
+}
+
+.left-side table p,
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.left-side table a{
+    color: blue;
+}
+
+.left-side table tbody tr {
+    display: block;
+    align-content: flex-start;
+    margin-bottom: 16px;
+
+}
+
+.left-side table tbody tr td {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.product-detail{
+    display: block;
+    width: 100%;
+}
+
+.left-side h3{
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+
+.detail-title p{
+    text-align: justify;
+    margin-bottom: 16px;
+}
+
+.img2 img{
+    display: block;
+    width: 100%;
+    border-radius: 16px;
+}
+
+/* right  side */
+
+.price{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+/* .right-side table{
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    background-color:aliceblue;
+
+    margin-bottom: 48px;
+} */
+
+.promotion-table{
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    background-color:aliceblue;
+
+    margin-bottom: 24px;
+}
+
+.promotion-table tbody tr{
+    border-bottom: 1px solid gray;
+    /* border-collapse: collapse; */
+}
+.promotion-table tbody tr td{
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+    align-items: flex-start;
+    padding: 8px 16px;
+}
+
+.right-side table a {
+    text-decoration: none;
+    color: blue;
+}
+
+.coupon{
+    display: inline;
+    background-color: gray;
+}
+
+input[type=radio]{
+    width: 24px;
+}
+
+/* group btns */
+.group-btns{
+    display: flex;
+    width: 100%;
+    gap: 8px;
+
+    margin-bottom: 24px;
+}
+
+.buy-now{
+    width: 100%;
+    margin-bottom: 8px;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.buy-late{
+    width: 50%;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+/* thông số kỹ thuật */
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    gap: 12px;
+}
+.table a{
+    color: blue;
+
+}
+.table-2{
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    background-color:white;
+    margin-top: 12px;
+}
+
+.table-2 td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 8px 16px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;    
+}
+
+.table-2 tr:nth-child(odd) {
+    background-color: aliceblue;
+  }
+
+/* .colored-row{
+    background-color: aliceblue;
+} */
+.table-2 td:nth-child(odd){
+    width: 30%;
+}
+

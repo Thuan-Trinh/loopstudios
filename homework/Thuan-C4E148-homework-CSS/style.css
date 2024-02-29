@@ -1,0 +1,75 @@
+/* background */
+.recipe-background {
+    background-color: white;
+    padding: 24px;
+    width: max-content;
+}
+
+.preparation-note {
+    background-color: rgb(255, 192, 245);
+    border-radius: 8px;
+    padding: 16px;
+
+}
+
+.big-title {
+    font-size: 40px;
+    color: red;
+}
+
+.infor {
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.list {
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 16px;
+    list-style: bold dot;
+}
+
+.small-title {
+    font-size: 24px;
+    color: rgb(255, 0, 119);
+    margin: 0px;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 24px;
+    margin-top: 32px;
+    color: brown;
+}
+
+.solid {
+    margin-top: 8px;
+}
+
+.value-name {
+    border-collapse: collapse;
+    border: 1px solid pink;
+    font-weight: lighter;
+    padding: 16px;
+    /* text-align: left; */
+}
+
+.values {
+    padding: 16px;
+    border-collapse: collapse;
+    border: 1px solid pink;
+    font-weight: bold;
+    /* text-align: left; */
+    color: brown;
+}
+
+.table {
+    padding: 16px;
+    text-align: left;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+td, th {
+    border-bottom: 1px solid black;
+  }

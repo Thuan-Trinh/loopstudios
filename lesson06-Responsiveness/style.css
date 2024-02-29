@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Khi width > 1024px => desktop first */
+.desktop-first{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+}
+
+
+/* 
+1.media: all | screen | print | speech => screen là hay dùng nhất 
+2. mediafeature
+
+*/
+
+/* áp dụng khi width của device nhỏ hơn  hoặc  bằng 1024px
+=> gọi là breakpoint*/
+@media only screen and (max-width: 1024px){
+    .desktop-first{
+        background-color: aqua;
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 786px){
+    .desktop-first{
+        background-color: none;
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .desktop-first{
+        background-color: none;
+        height: 100vh;
+    }
+}
+
+/* DEMO MOBILE FIRST */
+.mobile-first{
+    margin-top: 48px;
+    background-color: black;
+    height: 250px;
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-first{
+        background-color: yellow;
+    }
+}
+
